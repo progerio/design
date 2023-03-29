@@ -1,0 +1,25 @@
+{
+    "name": "paulo/design",
+    "description": "Estudo sobre design pattern",
+    "type": "project",
+    "license": "mit",
+    "autoload": {
+        "psr-4": {
+            "Progerio\\Design\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Paulo Rogerio",
+            "email": "paulo.rogeriobr@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "phpunit/phpunit": "9.6.x-dev"
+    }
+    ,
+    "require-dev": {
+        "roave/security-advisories": "dev-latest"
+    }
+}
